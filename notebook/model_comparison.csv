@@ -1,0 +1,4 @@
+,PR-AUC,Precision,Recall,F1,Accuracy
+Random Forest,0.522,0.467,0.625,0.534,0.975
+XGBoost,0.518,0.377,0.821,0.517,0.964
+Gradient Boosting,0.507,0.362,0.75,0.488,0.964

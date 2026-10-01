@@ -1,0 +1,292 @@
+NEPAL HIGH-FLOW PREDICTOR - DEMO VALUES
+Select the station, then type each value into the sidebar.
+
+=======================================================
+STATION 120.0: Chameliya/Nayalbadi  (threshold 103.5 m3/s)
+
+  [Normal day]  (real day: 2026-07-26, unseen 2026 test day)
+    Month                        7
+    Discharge today (m3/s)       51.8
+    Discharge yesterday (m3/s)   49.8
+    Rain today (mm)              7.7
+    Rain last 3 days (mm)        51.9
+    Rain last 7 days (mm)        131.7
+    Soil moisture today          0.5
+    Soil moisture 3-day avg      0.51
+    Temperature (C)              28.0
+    Humidity (%)                 78
+    Expected app result: 0.5% (LOW)  |  Reality: no high flow next day
+
+  [High-flow day]  (real day: 2024-08-10, TRAINING day - model has seen this, result is inflated)
+    Month                        8
+    Discharge today (m3/s)       110.9
+    Discharge yesterday (m3/s)   107.1
+    Rain today (mm)              13.4
+    Rain last 3 days (mm)        53.0
+    Rain last 7 days (mm)        195.0
+    Soil moisture today          0.51
+    Soil moisture 3-day avg      0.51
+    Temperature (C)              26.0
+    Humidity (%)                 90
+    Expected app result: 100.0% (HIGH)  |  Reality: high flow DID happen next day
+
+=======================================================
+STATION 280.0: Chisapani  (threshold 3.3 m3/s)
+
+  [Normal day]  (real day: 2026-08-14, unseen 2026 test day)
+    Month                        8
+    Discharge today (m3/s)       1.6
+    Discharge yesterday (m3/s)   1.6
+    Rain today (mm)              19.0
+    Rain last 3 days (mm)        49.9
+    Rain last 7 days (mm)        106.1
+    Soil moisture today          0.42
+    Soil moisture 3-day avg      0.42
+    Temperature (C)              28.0
+    Humidity (%)                 92
+    Expected app result: 2.0% (LOW)  |  Reality: no high flow next day
+
+  [High-flow day]  (real day: 2025-08-06, TRAINING day - model has seen this, result is inflated)
+    Month                        8
+    Discharge today (m3/s)       6.9
+    Discharge yesterday (m3/s)   4.7
+    Rain today (mm)              3.6
+    Rain last 3 days (mm)        122.5
+    Rain last 7 days (mm)        196.2
+    Soil moisture today          0.43
+    Soil moisture 3-day avg      0.43
+    Temperature (C)              26.5
+    Humidity (%)                 92
+    Expected app result: 100.0% (HIGH)  |  Reality: high flow DID happen next day
+
+=======================================================
+STATION 291.0: Bhada Bridge  (threshold 3.8 m3/s)
+
+  [Normal day]  (real day: 2026-08-18, unseen 2026 test day)
+    Month                        8
+    Discharge today (m3/s)       0.9
+    Discharge yesterday (m3/s)   0.5
+    Rain today (mm)              15.9
+    Rain last 3 days (mm)        66.1
+    Rain last 7 days (mm)        162.9
+    Soil moisture today          0.43
+    Soil moisture 3-day avg      0.43
+    Temperature (C)              27.5
+    Humidity (%)                 93
+    Expected app result: 18.0% (LOW)  |  Reality: no high flow next day
+
+  [High-flow day]  (real day: 2026-08-19, unseen 2026 test day)
+    Month                        8
+    Discharge today (m3/s)       1.7
+    Discharge yesterday (m3/s)   0.9
+    Rain today (mm)              2.3
+    Rain last 3 days (mm)        36.6
+    Rain last 7 days (mm)        162.3
+    Soil moisture today          0.42
+    Soil moisture 3-day avg      0.43
+    Temperature (C)              29.0
+    Humidity (%)                 90
+    Expected app result: 6.5% (LOW)  |  Reality: high flow DID happen next day
+
+=======================================================
+STATION 375.0: Kusum  (threshold 573.5 m3/s)
+
+  [Normal day]  (real day: 2026-07-11, unseen 2026 test day)
+    Month                        7
+    Discharge today (m3/s)       276.3
+    Discharge yesterday (m3/s)   168.0
+    Rain today (mm)              21.8
+    Rain last 3 days (mm)        72.0
+    Rain last 7 days (mm)        120.0
+    Soil moisture today          0.3
+    Soil moisture 3-day avg      0.28
+    Temperature (C)              27.5
+    Humidity (%)                 94
+    Expected app result: 18.0% (LOW)  |  Reality: no high flow next day
+
+  [High-flow day]  (real day: 2026-08-30, unseen 2026 test day)
+    Month                        8
+    Discharge today (m3/s)       655.1
+    Discharge yesterday (m3/s)   475.4
+    Rain today (mm)              7.8
+    Rain last 3 days (mm)        24.3
+    Rain last 7 days (mm)        74.9
+    Soil moisture today          0.41
+    Soil moisture 3-day avg      0.4
+    Temperature (C)              28.0
+    Humidity (%)                 96
+    Expected app result: 84.0% (HIGH)  |  Reality: high flow DID happen next day
+
+=======================================================
+STATION 446.22: Rasuwagadhi  (threshold 4.1 m3/s)
+
+  [Normal day]  (real day: 2026-06-13, unseen 2026 test day)
+    Month                        6
+    Discharge today (m3/s)       2.1
+    Discharge yesterday (m3/s)   2.1
+    Rain today (mm)              5.3
+    Rain last 3 days (mm)        63.3
+    Rain last 7 days (mm)        109.2
+    Soil moisture today          0.42
+    Soil moisture 3-day avg      0.42
+    Temperature (C)              21.5
+    Humidity (%)                 75
+    Expected app result: 1.5% (LOW)  |  Reality: no high flow next day
+
+  [High-flow day]  (real day: 2026-08-20, unseen 2026 test day)
+    Month                        8
+    Discharge today (m3/s)       4.5
+    Discharge yesterday (m3/s)   4.1
+    Rain today (mm)              12.4
+    Rain last 3 days (mm)        66.3
+    Rain last 7 days (mm)        99.7
+    Soil moisture today          0.42
+    Soil moisture 3-day avg      0.42
+    Temperature (C)              24.0
+    Humidity (%)                 87
+    Expected app result: 89.5% (HIGH)  |  Reality: high flow DID happen next day
+
+=======================================================
+STATION 450.0: Devghat  (threshold 7.3 m3/s)
+
+  [Normal day]  (real day: 2026-07-12, unseen 2026 test day)
+    Month                        7
+    Discharge today (m3/s)       3.0
+    Discharge yesterday (m3/s)   2.8
+    Rain today (mm)              42.8
+    Rain last 3 days (mm)        56.6
+    Rain last 7 days (mm)        104.0
+    Soil moisture today          0.32
+    Soil moisture 3-day avg      0.31
+    Temperature (C)              28.0
+    Humidity (%)                 90
+    Expected app result: 8.0% (LOW)  |  Reality: no high flow next day
+
+  [High-flow day]  (real day: 2024-07-12, TRAINING day - model has seen this, result is inflated)
+    Month                        7
+    Discharge today (m3/s)       8.9
+    Discharge yesterday (m3/s)   8.7
+    Rain today (mm)              19.5
+    Rain last 3 days (mm)        82.7
+    Rain last 7 days (mm)        176.4
+    Soil moisture today          0.43
+    Soil moisture 3-day avg      0.42
+    Temperature (C)              26.5
+    Humidity (%)                 89
+    Expected app result: 100.0% (HIGH)  |  Reality: high flow DID happen next day
+
+=======================================================
+STATION 550.05: Khokana  (threshold 6.7 m3/s)
+
+  [Normal day]  (real day: 2026-04-30, unseen 2026 test day)
+    Month                        4
+    Discharge today (m3/s)       3.3
+    Discharge yesterday (m3/s)   1.2
+    Rain today (mm)              11.1
+    Rain last 3 days (mm)        69.5
+    Rain last 7 days (mm)        105.6
+    Soil moisture today          0.32
+    Soil moisture 3-day avg      0.31
+    Temperature (C)              16.5
+    Humidity (%)                 88
+    Expected app result: 10.5% (LOW)  |  Reality: no high flow next day
+
+  [High-flow day]  (real day: 2026-07-13, unseen 2026 test day)
+    Month                        7
+    Discharge today (m3/s)       9.9
+    Discharge yesterday (m3/s)   2.3
+    Rain today (mm)              58.3
+    Rain last 3 days (mm)        165.6
+    Rain last 7 days (mm)        268.0
+    Soil moisture today          0.41
+    Soil moisture 3-day avg      0.41
+    Temperature (C)              23.0
+    Humidity (%)                 97
+    Expected app result: 93.5% (HIGH)  |  Reality: high flow DID happen next day
+
+=======================================================
+STATION 595.5: Belsot  (threshold 114.9 m3/s)
+
+  [Normal day]  (real day: 2026-07-17, unseen 2026 test day)
+    Month                        7
+    Discharge today (m3/s)       55.9
+    Discharge yesterday (m3/s)   52.2
+    Rain today (mm)              5.8
+    Rain last 3 days (mm)        29.7
+    Rain last 7 days (mm)        97.6
+    Soil moisture today          0.35
+    Soil moisture 3-day avg      0.35
+    Temperature (C)              30.0
+    Humidity (%)                 80
+    Expected app result: 2.0% (LOW)  |  Reality: no high flow next day
+
+  [High-flow day]  (real day: 2024-07-21, TRAINING day - model has seen this, result is inflated)
+    Month                        7
+    Discharge today (m3/s)       127.8
+    Discharge yesterday (m3/s)   133.6
+    Rain today (mm)              0.5
+    Rain last 3 days (mm)        0.5
+    Rain last 7 days (mm)        13.9
+    Soil moisture today          0.38
+    Soil moisture 3-day avg      0.39
+    Temperature (C)              30.0
+    Humidity (%)                 75
+    Expected app result: 100.0% (HIGH)  |  Reality: high flow DID happen next day
+
+=======================================================
+STATION 610.0: Bahrabise  (threshold 15.7 m3/s)
+
+  [Normal day]  (real day: 2026-07-09, unseen 2026 test day)
+    Month                        7
+    Discharge today (m3/s)       7.7
+    Discharge yesterday (m3/s)   7.7
+    Rain today (mm)              12.0
+    Rain last 3 days (mm)        61.7
+    Rain last 7 days (mm)        113.6
+    Soil moisture today          0.31
+    Soil moisture 3-day avg      0.3
+    Temperature (C)              26.0
+    Humidity (%)                 87
+    Expected app result: 3.5% (LOW)  |  Reality: no high flow next day
+
+  [High-flow day]  (real day: 2026-07-22, unseen 2026 test day)
+    Month                        7
+    Discharge today (m3/s)       19.7
+    Discharge yesterday (m3/s)   20.7
+    Rain today (mm)              39.7
+    Rain last 3 days (mm)        120.5
+    Rain last 7 days (mm)        265.7
+    Soil moisture today          0.42
+    Soil moisture 3-day avg      0.42
+    Temperature (C)              25.0
+    Humidity (%)                 88
+    Expected app result: 98.0% (HIGH)  |  Reality: high flow DID happen next day
+
+=======================================================
+STATION 695.0: Chatara  (threshold 5.8 m3/s)
+
+  [Normal day]  (real day: 2026-08-21, unseen 2026 test day)
+    Month                        8
+    Discharge today (m3/s)       2.9
+    Discharge yesterday (m3/s)   3.0
+    Rain today (mm)              2.1
+    Rain last 3 days (mm)        7.4
+    Rain last 7 days (mm)        18.0
+    Soil moisture today          0.35
+    Soil moisture 3-day avg      0.35
+    Temperature (C)              29.0
+    Humidity (%)                 87
+    Expected app result: 1.0% (LOW)  |  Reality: no high flow next day
+
+  [High-flow day]  (real day: 2026-07-20, unseen 2026 test day)
+    Month                        7
+    Discharge today (m3/s)       6.7
+    Discharge yesterday (m3/s)   5.2
+    Rain today (mm)              34.6
+    Rain last 3 days (mm)        70.4
+    Rain last 7 days (mm)        100.9
+    Soil moisture today          0.4
+    Soil moisture 3-day avg      0.39
+    Temperature (C)              26.5
+    Humidity (%)                 92
+    Expected app result: 78.5% (HIGH)  |  Reality: high flow DID happen next day
